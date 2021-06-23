@@ -1,7 +1,7 @@
 configName: default
 folderName: h3_test
 format_version: v1.0
-frameworkPath: C:\Microchip\Harmony3
+frameworkPath: ../../../../../Harmony3
 processor: PIC32MZ2048EFH144
 projectName: h3_test
 settings:

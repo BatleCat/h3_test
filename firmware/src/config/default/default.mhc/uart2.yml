@@ -64,6 +64,8 @@ children:
       children:
       - type: Dynamic
         attributes: {id: uart2, value: '2'}
+      - type: User
+        attributes: {value: '2'}
   - type: Boolean
     attributes: {id: UART_RING_BUFFER_MODE_ENABLE}
     children:
@@ -130,4 +132,4 @@ children:
         children:
         - {type: Value, value: sys_console_UART_dependency}
 - type: ElementPosition
-  attributes: {x: '131', y: '483', id: uart2}
+  attributes: {x: '132', y: '465', id: uart2}

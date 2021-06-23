@@ -108,7 +108,7 @@ extern "C" {
 #define SYS_TIME_INDEX_0                            (0)
 #define SYS_TIME_MAX_TIMERS                         (5)
 #define SYS_TIME_HW_COUNTER_WIDTH                   (32)
-#define SYS_TIME_TICK_FREQ_IN_HZ                    (0,00001)
+#define SYS_TIME_TICK_FREQ_IN_HZ                    (10)
 
 
 
