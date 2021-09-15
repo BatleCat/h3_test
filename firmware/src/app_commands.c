@@ -40,6 +40,7 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 //#include "tcpip/tcpip.h"
 #include "app_commands.h"
 #include "app.h"
+#include "../src/config/default/system/command/sys_command.h"
 
 static int _APP_Commands_testAnswer(SYS_CMD_DEVICE_NODE* pCmdIO, int argc, char** argv);
 //static int _APP_Commands_stopUDPtest(SYS_CMD_DEVICE_NODE* pCmdIO, int argc, char** argv);

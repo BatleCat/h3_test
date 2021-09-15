@@ -69,6 +69,10 @@ void UART2_TX_InterruptHandler( void );
 
 
 /* All the handlers are defined here.  Each will call its PLIB-specific function. */
+void __ISR(_CORE_SOFTWARE_0_VECTOR, ipl1SRS) CORE_SOFTWARE_0_Handler (void)
+{
+}
+
 void __ISR(_TIMER_1_VECTOR, ipl1SRS) TIMER_1_Handler (void)
 {
     TIMER_1_InterruptHandler();

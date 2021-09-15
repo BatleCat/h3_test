@@ -5,7 +5,7 @@ frameworkPath: ../../../../../Harmony3
 processor: PIC32MZ2048EFH144
 projectName: h3_test
 settings:
-  PackageFilter: bsp;core;crypto;csp;csp_apps_pic32mz_ef;net;net_apps_pic32mz;quick_docs;usb
+  PackageFilter: bsp;core;core_apps_pic32mz_ef;crypto;csp;net;net_apps_pic32mz;usb
   FORCE_OPTIMIZATION: 'false'
   GENERATE_BACKUP: 'true'
   TRUSTZONE: 'false'
